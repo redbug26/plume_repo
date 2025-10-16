@@ -1,6 +1,6 @@
 # 🪶 Plume Index
 
-_Last updated on 2025-10-16 12:43_
+_Last updated on 2025-10-16 13:27_
 
 ## 📰 News: Introducing Plume
 _Miguel_ — 2025-10-16 14:11:00
@@ -64,24 +64,6 @@ More stories are coming soon — and maybe one of them will be yours.
 
 ---
 
-## 📖 New book: [Le livre de la jungle (premier et second)](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/Kipling jungle.md)
-_Kipling, Rudyard._ — 2025-10-16
-
-Title: Le livre de la jungle (premier et second)
-Author: Kipling, Rudyard.
-Date: 2025-10-16
-
----
-
-## 📖 New book: [Le Horla](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/horla.md)
-_Guy de Maupassant_ — 2025-10-16
-
-Title: Le Horla
-Author: Guy de Maupassant
-Date: 2025-10-16
-
----
-
 ## 📖 New book: [Untitled Story](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/test_lists.md)
 _Unknown Author_ — 2025-10-16
 
@@ -91,21 +73,12 @@ Date: 2025-10-16
 
 ---
 
-## 📖 New book: [Le Horla](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/horla2.md)
-_Guy de Maupassant_ — 2025-10-14
+## 📖 New book: [Le livre de la jungle (premier et second)](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/Kipling jungle.md)
+_Kipling, Rudyard._ — 2025-10-16
 
-Title: Le Horla
-Author: Guy de Maupassant
-Date: 2025-10-14
-
----
-
-## 📖 New book: [Le Horla](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/pg10775.md)
-_Guy de Maupassant_ — 2025-10-14
-
-Title: Le Horla
-Author: Guy de Maupassant
-Date: 2025-10-14
+Title: Le livre de la jungle (premier et second)
+Author: Kipling, Rudyard.
+Date: 2025-10-16
 
 ---
 
@@ -114,6 +87,15 @@ _Test_ — 2025-10-14
 
 Title: Test de Pagination Rapide
 Author: Test
+Date: 2025-10-14
+
+---
+
+## 📖 New book: [Le Horla](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/fr/de Maupassant, Guy/Le Horla.md)
+_Guy de Maupassant_ — 2025-10-14
+
+Title: Le Horla
+Author: Guy de Maupassant
 Date: 2025-10-14
 
 ---

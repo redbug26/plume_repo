@@ -31,24 +31,37 @@ function parseFrontMatter($content)
     return [];
 }
 
-// --- Collect Markdown files ---
+// --- Collect Markdown files recursively ---
 function collectFiles($dir, $type)
 {
     global $githubBaseUrl;
 
-    $files = glob("$dir/*.md");
     $items = [];
-
-    foreach ($files as $file) {
-        $content = file_get_contents($file);
+    
+    // Use RecursiveDirectoryIterator to read subdirectories
+    if (is_dir($dir)) {
+        $iterator = new RecursiveIteratorIterator(
+            new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS),
+            RecursiveIteratorIterator::LEAVES_ONLY
+        );
+        
+        foreach ($iterator as $file) {
+            // Only process .md files
+            if ($file->getExtension() !== 'md') {
+                continue;
+            }
+            
+            $filePath = $file->getPathname();
+        
+        $content = file_get_contents($filePath);
         $meta = parseFrontMatter($content);
-        $title = $meta['title'] ?? basename($file);
+        $title = $meta['title'] ?? basename($filePath);
         $author = $meta['author'] ?? 'Unknown';
 
         // For stories, use file modification time
         $date = ($type === 'story')
-            ? date('Y-m-d', filemtime($file))
-            : ($meta['date'] ?? date('Y-m-d', filemtime($file)));
+            ? date('Y-m-d', filemtime($filePath))
+            : ($meta['date'] ?? date('Y-m-d', filemtime($filePath)));
 
         if ($type === 'blog') {
             // For blog posts, extract body without frontmatter
@@ -77,18 +90,18 @@ function collectFiles($dir, $type)
         }
 
         // convertit path vers github
-
-        $relativePath = str_replace(__DIR__ . '/', '', $file);
-        $file = "$githubBaseUrl/$relativePath";
+        $relativePath = str_replace(__DIR__ . '/', '', $filePath);
+        $githubUrl = "$githubBaseUrl/$relativePath";
 
         $items[] = [
             'type' => $type,
-            'path' => $file,
+            'path' => $githubUrl,
             'title' => $title,
             'author' => $author,
             'date' => $date,
             'body' => trim($body),
         ];
+        }
     }
 
     return $items;
