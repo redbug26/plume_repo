@@ -8,7 +8,7 @@
  * - Stories are listed briefly; blog posts include full content.
  */
 
-$githubBaseUrl = 'https://raw.githubusercontent.com/swzzl-com/gutenmark/refs/heads/master/';
+$githubBaseUrl = 'https://raw.githubusercontent.com/redbug26/plume_repo/main';
 
 $storiesDir = __DIR__ . '/stories';
 $blogDir = __DIR__ . '/blog';

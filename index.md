@@ -1,6 +1,6 @@
 # 🪶 Plume Index
 
-_Last updated on 2025-10-16 12:21_
+_Last updated on 2025-10-16 12:43_
 
 ## 📰 News: Introducing Plume
 _Miguel_ — 2025-10-16 14:11:00
@@ -64,7 +64,7 @@ More stories are coming soon — and maybe one of them will be yours.
 
 ---
 
-## 📖 New book: [Le livre de la jungle (premier et second)](https://raw.githubusercontent.com/swzzl-com/gutenmark/refs/heads/master//stories/Kipling jungle.md)
+## 📖 New book: [Le livre de la jungle (premier et second)](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/Kipling jungle.md)
 _Kipling, Rudyard._ — 2025-10-16
 
 Title: Le livre de la jungle (premier et second)
@@ -73,7 +73,7 @@ Date: 2025-10-16
 
 ---
 
-## 📖 New book: [Le Horla](https://raw.githubusercontent.com/swzzl-com/gutenmark/refs/heads/master//stories/horla.md)
+## 📖 New book: [Le Horla](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/horla.md)
 _Guy de Maupassant_ — 2025-10-16
 
 Title: Le Horla
@@ -82,7 +82,7 @@ Date: 2025-10-16
 
 ---
 
-## 📖 New book: [Untitled Story](https://raw.githubusercontent.com/swzzl-com/gutenmark/refs/heads/master//stories/test_lists.md)
+## 📖 New book: [Untitled Story](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/test_lists.md)
 _Unknown Author_ — 2025-10-16
 
 Title: Untitled Story
@@ -91,7 +91,7 @@ Date: 2025-10-16
 
 ---
 
-## 📖 New book: [Le Horla](https://raw.githubusercontent.com/swzzl-com/gutenmark/refs/heads/master//stories/horla2.md)
+## 📖 New book: [Le Horla](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/horla2.md)
 _Guy de Maupassant_ — 2025-10-14
 
 Title: Le Horla
@@ -100,7 +100,7 @@ Date: 2025-10-14
 
 ---
 
-## 📖 New book: [Le Horla](https://raw.githubusercontent.com/swzzl-com/gutenmark/refs/heads/master//stories/pg10775.md)
+## 📖 New book: [Le Horla](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/pg10775.md)
 _Guy de Maupassant_ — 2025-10-14
 
 Title: Le Horla
@@ -109,7 +109,7 @@ Date: 2025-10-14
 
 ---
 
-## 📖 New book: [Test de Pagination Rapide](https://raw.githubusercontent.com/swzzl-com/gutenmark/refs/heads/master//stories/test_rapide.md)
+## 📖 New book: [Test de Pagination Rapide](https://raw.githubusercontent.com/redbug26/plume_repo/main/stories/test_rapide.md)
 _Test_ — 2025-10-14
 
 Title: Test de Pagination Rapide
